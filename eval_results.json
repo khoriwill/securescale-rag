@@ -1,0 +1,102 @@
+{
+  "total_chunks": 1,
+  "tests_run": 8,
+  "tests_passed": 8,
+  "retrieval_accuracy": 1.0,
+  "results": [
+    {
+      "test": "ALB health check configuration",
+      "score": 0.75,
+      "status": "PASS",
+      "found_keywords": [
+        "health check",
+        "alb",
+        "healthy"
+      ],
+      "missing_keywords": [
+        "target group"
+      ]
+    },
+    {
+      "test": "EC2 security layer",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "security group",
+        "ec2",
+        "alb",
+        "port 80"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "Remote state management",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "s3",
+        "dynamodb",
+        "state",
+        "locking"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "RDS private subnet decision",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "private",
+        "rds",
+        "subnet",
+        "database"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "AI Ops layer architecture",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "lambda",
+        "bedrock",
+        "cloudwatch",
+        "eventbridge"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "ASG configuration",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "asg",
+        "desired",
+        "min",
+        "max"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "Session Manager over SSH",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "session manager",
+        "ssm",
+        "port 22"
+      ],
+      "missing_keywords": []
+    },
+    {
+      "test": "Multi-AZ configuration",
+      "score": 1.0,
+      "status": "PASS",
+      "found_keywords": [
+        "us-east-1a",
+        "us-east-1b"
+      ],
+      "missing_keywords": []
+    }
+  ]
+}
